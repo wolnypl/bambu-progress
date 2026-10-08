@@ -1,0 +1,8 @@
+# Local configuration and secrets
+bambu-progress.env
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]

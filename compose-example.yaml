@@ -1,0 +1,8 @@
+services:
+  bambu-progress:
+    build: .
+    image: bambu-progress:latest
+    container_name: bambu-progress
+    env_file:
+      - bambu-progress.env
+    restart: unless-stopped
